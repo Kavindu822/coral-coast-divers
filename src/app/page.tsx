@@ -41,6 +41,11 @@ const FACEBOOK_URL = "https://www.facebook.com/share/1BunK83bAf/?mibextid=wwXIfr
 const INSTAGRAM_URL =
   "https://www.instagram.com/coral_coast_divers_mirissa?stkn=MXRtbHNncjhieHpkaw==";
 
+// Vian-Tech IT Solutions & Web Development
+const VIANTECH_PHONE_DISPLAY = "+94 78 958 0809";
+const VIANTECH_WHATSAPP =
+  "https://wa.me/94789580809?text=Hi%20Vian-Tech!%20I%20saw%20the%20Coral%20Coast%20Divers%20website%20and%20would%20like%20to%20inquire%20about%20your%20IT%20%26%20web%20development%20services.";
+
 // WhatsApp deep link generator
 const makeWhatsAppLink = (message: string) =>
   `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}`;
@@ -1915,7 +1920,44 @@ export default function HomePage() {
             </a>
           </div>
 
-          <p className="text-xs text-slate-500">
+          {/* Vian-Tech IT Solutions & Web Development Credit */}
+          <div className="w-full max-w-2xl rounded-2xl border border-teal-500/25 bg-gradient-to-r from-[#031d30]/70 via-[#071d2b]/80 to-[#031d30]/70 p-3.5 sm:p-4.5 backdrop-blur-xl shadow-xl shadow-black/30 flex flex-col sm:flex-row items-center justify-between gap-3.5 sm:gap-4">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 sm:gap-3">
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+                Built by
+              </span>
+              <a
+                href={VIANTECH_WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center rounded-xl bg-white/95 px-3.5 py-1.5 shadow-md transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-teal-500/20"
+                title="Vian-Tech | IT Solutions & Web Development"
+              >
+                <Image
+                  src="/images/viantech-logo.png"
+                  alt="Vian-Tech - IT Solutions & Web Development"
+                  width={150}
+                  height={42}
+                  className="h-6 w-auto object-contain transition-transform group-hover:scale-105"
+                  unoptimized
+                />
+              </a>
+            </div>
+
+            <a
+              href={VIANTECH_WHATSAPP}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-xs font-semibold text-emerald-300 transition-all duration-300 hover:bg-emerald-500 hover:text-white hover:shadow-lg hover:shadow-emerald-500/25 hover:scale-105 active:scale-95"
+              title="Contact Vian-Tech on WhatsApp for IT Solutions & Web Development"
+            >
+              <MessageCircle className="size-3.5 text-emerald-400 group-hover:text-white" />
+              <span>Contact Vian-Tech</span>
+              <span className="font-mono text-[11px] opacity-85">({VIANTECH_PHONE_DISPLAY})</span>
+            </a>
+          </div>
+
+          <p className="text-xs text-slate-500 text-center">
             © {new Date().getFullYear()} Coral Coast Divers Mirissa • Certified PADI &amp; SSI
             Instructors • Mirissa Beach, Sri Lanka. All rights reserved.
           </p>
