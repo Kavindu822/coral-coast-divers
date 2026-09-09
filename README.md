@@ -1,29 +1,36 @@
-# Welcome to your Lovable project
+# Coral Coast Divers Mirissa
 
-This project was built with [Lovable](https://lovable.dev).
+A modern, high-performance web application for Coral Coast Divers in Mirissa, Sri Lanka. Built with **Next.js 15+ App Router**, **Turbopack**, and **Tailwind CSS v4**.
 
-## Build with Lovable
+## Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- **Blazing Fast**: Powered by Next.js Turbopack with instant startup and sub-millisecond HMR.
+- **Rich Ocean Design**: Custom OKLCH color palettes, glassmorphic headers, and fluid typography (`Outfit` & `Inter`).
+- **Interactive Experience**: Animated FAQ accordion, mobile menu drawer, and direct WhatsApp booking flows.
+- **Optimized Media**: High-resolution local imagery and Google Maps integration.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Getting Started
 
-## Development
+### Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+npm install
 npm run dev
 ```
 
-## Built with
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+### Production Build
+
+```bash
+npm run build
+npm run start
+```
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Bundler**: Turbopack
+- **Styling**: Tailwind CSS v4 + PostCSS
+- **Icons**: Lucide React
+- **TypeScript**: Full type safety
