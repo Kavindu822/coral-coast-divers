@@ -1957,10 +1957,25 @@ export default function HomePage() {
             </a>
           </div>
 
-          <p className="text-xs text-slate-500 text-center">
-            © {new Date().getFullYear()} Coral Coast Divers Mirissa • Certified PADI &amp; SSI
-            Instructors • Mirissa Beach, Sri Lanka. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-1.5 text-center text-xs text-slate-400">
+            <p>
+              © {new Date().getFullYear()} Coral Coast Divers Mirissa • Certified PADI &amp; SSI
+              Instructors • Mirissa, Sri Lanka. All rights reserved.
+            </p>
+            <p className="text-slate-500 text-[11px]">
+              Website Designed &amp; Developed by{" "}
+              <a
+                href={VIANTECH_WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-teal-400/90 hover:text-teal-300 hover:underline transition-colors"
+                title="Contact Vian-Tech IT Solutions on WhatsApp"
+              >
+                Vian-Tech IT Solutions
+              </a>
+              .
+            </p>
+          </div>
         </div>
       </footer>
     </div>
