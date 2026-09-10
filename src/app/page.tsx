@@ -140,11 +140,11 @@ const categories: Category[] = [
     subtitle: "First Breath Underwater",
     tag: "Authentic Photos • Beginners Welcome",
     badgeColor: "bg-cyan-500/15 text-cyan-700 border-cyan-500/30",
-    price: "USD 55",
+    price: "USD 70",
     unit: "/ person",
     duration: "2.5 – 3 Hours",
     description:
-      "Ever wondered what it feels like to breathe weightlessly underwater? Our Discover Scuba Diving program is led by certified Coral Coast Divers instructors. You will receive a full safety briefing, practice easy scuba skills in shallow water, and dive down to 6–12 meters on pristine Mirissa coral gardens.",
+      "Ever wondered what it feels like to breathe weightlessly underwater? Our Discover Scuba Diving program is led by experienced Coral Coast Divers dive guides. You will receive a full safety briefing, practice easy scuba skills in shallow water, and dive down to 6–12 meters on pristine Mirissa coral gardens.",
     times: [
       {
         label: "Morning Session",
@@ -159,7 +159,7 @@ const categories: Category[] = [
     ],
     features: [
       "No certification or previous diving experience required",
-      "Dedicated Coral Coast Divers instructor in the water with you",
+      "Dedicated Coral Coast Divers guide in the water with you",
       "Full premium scuba gear: BCD, regulator, wetsuit, mask & tank",
       "Shallow water skills briefing followed by open reef dive",
       "Free HD underwater action photography & video clips included",
@@ -192,7 +192,7 @@ const categories: Category[] = [
     subtitle: "Ocean Giants of Mirissa",
     tag: "Authentic Photos • Nov – Apr",
     badgeColor: "bg-blue-500/15 text-blue-700 border-blue-500/30",
-    price: "USD 45",
+    price: "USD 60",
     unit: "/ person",
     duration: "4 – 5 Hours",
     description:
@@ -252,7 +252,7 @@ const happyCustomers: HappyCustomer[] = [
     rating: 5,
     highlight: "Held on Safety Float Ring",
     quote:
-      "Our child was quite nervous about open sea water, but the Coral Coast Divers instructor stayed right beside her, holding the orange safety float ('CCD') the entire time while wild sea turtles grazed peacefully directly below. She was beaming with confidence and did not want to leave the water!",
+      "Our child was quite nervous about open sea water, but the Coral Coast Divers guide stayed right beside her, holding the orange safety float ('CCD') the entire time while wild sea turtles grazed peacefully directly below. She was beaming with confidence and did not want to leave the water!",
   },
   {
     image: "/images/customers/customer-family-beach.jpg",
@@ -307,7 +307,7 @@ const faqs = [
   },
   {
     q: "Can non-swimmers or beginners join the Turtle Snorkeling?",
-    a: "Absolutely! We provide high-buoyancy life jackets, sanitized masks, and our local instructors stay in the water with you holding a rescue float. Everyone gets to see wild turtles safely.",
+    a: "Absolutely! We provide high-buoyancy life jackets, sanitized masks, and our experienced local guides stay in the water with you holding a rescue float. Everyone gets to see wild turtles safely.",
   },
   {
     q: "Are the underwater action camera photos and videos really free?",
@@ -559,7 +559,7 @@ export default function HomePage() {
 
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg">
             Guided turtle snorkeling, beginner discover scuba diving &amp; blue whale watching with
-            local certified instructors who grew up exploring these tropical reefs.
+            experienced local guides who grew up exploring these tropical reefs.
           </p>
 
           {/* Direct CTA cluster */}
@@ -620,7 +620,7 @@ export default function HomePage() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs sm:text-sm text-white/85">
             <span className="flex items-center gap-1.5">
               <Star className="size-4 fill-amber-300 text-amber-300" />
-              Certified PADI Dive Masters
+              Experienced Local Dive Guides
             </span>
             <span className="hidden h-1 w-1 rounded-full bg-white/40 sm:block" />
             <span className="flex items-center gap-1.5">
@@ -1093,7 +1093,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-2xl text-center">
             <div className="inline-flex items-center gap-2 rounded-full border border-teal-500/25 bg-teal-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-teal-800 shadow-xs">
               <Sparkles className="size-3.5 text-teal-600 animate-pulse" />
-              <span>Family Run • Certified PADI &amp; SSI Standards</span>
+              <span>Family Run • Local Ocean Experts</span>
             </div>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
               Why Choose{" "}
@@ -1110,7 +1110,7 @@ export default function HomePage() {
 
           {/* 6 Creative Feature Cards Grid */}
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Card 1: Certified & Insured Instructors (Azure & Sapphire) */}
+            {/* Card 1: Experienced Local Dive Guides (Azure & Sapphire) */}
             <div className="group relative overflow-hidden rounded-3xl border border-blue-200/80 bg-white/95 p-7 sm:p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-500/10 backdrop-blur-md">
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-400 group-hover:h-2 transition-all duration-300" />
               <div className="pointer-events-none absolute -top-3 right-4 select-none font-mono text-6xl font-black text-blue-500/5 group-hover:text-blue-500/15 group-hover:scale-110 transition-all duration-500">
@@ -1121,15 +1121,16 @@ export default function HomePage() {
                   <ShieldCheck className="size-7" />
                 </div>
                 <span className="inline-flex items-center gap-1 rounded-full border border-blue-200 bg-blue-50/80 px-3 py-1 text-xs font-semibold text-blue-700">
-                  Certified PADI &amp; SSI
+                  Experienced Local Guides
                 </span>
               </div>
               <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-blue-700 transition-colors">
-                Certified &amp; Insured Instructors
+                Experienced Local Dive Guides
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                Every single dive and snorkel tour is supervised by certified local dive instructors
-                with active international emergency response and rescue training.
+                Every single dive and snorkel tour is supervised by experienced local ocean guides
+                who know Mirissa&apos;s waters intimately, with active rescue and ocean emergency
+                preparation.
               </p>
               <div className="mt-5 space-y-1.5 border-t border-slate-100 pt-4 text-xs font-medium text-slate-700">
                 <div className="flex items-center gap-2">
@@ -1228,8 +1229,9 @@ export default function HomePage() {
                 Beginner &amp; Non-Swimmer Friendly
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                Never snorkeled or felt nervous in open sea water? Our patient instructors guide you
-                by the hand, adjust sanitized lifejackets, and keep you safe with floating rings.
+                Never snorkeled or felt nervous in open sea water? Our patient local guides
+                accompany you by the hand, adjust sanitized lifejackets, and keep you safe with
+                floating rings.
               </p>
               <div className="mt-5 space-y-1.5 border-t border-slate-100 pt-4 text-xs font-medium text-slate-700">
                 <div className="flex items-center gap-2">
@@ -1295,7 +1297,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
                 No middleman commissions, automated bots, or agency delays. Chat directly with the
-                local owner and instructor at{" "}
+                local owner and lead guide at{" "}
                 <span className="font-semibold text-slate-800">{OWNER_PHONE_DISPLAY}</span>.
               </p>
               <div className="mt-5 space-y-1.5 border-t border-slate-100 pt-4 text-xs font-medium text-slate-700">
@@ -1808,8 +1810,8 @@ export default function HomePage() {
           </div>
 
           <p className="max-w-xl text-sm leading-relaxed text-slate-300">
-            PADI-guided turtle snorkeling, beginner scuba diving &amp; whale watching in Mirissa,
-            Sri Lanka. Small groups, local instructors &amp; free action camera photos.
+            Guided turtle snorkeling, beginner scuba diving &amp; whale watching in Mirissa, Sri
+            Lanka. Small groups, experienced local guides &amp; free action camera photos.
           </p>
 
           {/* Social Community & Official Channels (Superb Luxury Method) */}
@@ -1827,7 +1829,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-2 text-xs sm:text-sm text-slate-300 max-w-lg mx-auto leading-relaxed">
                 Follow our daily underwater sightings, wild turtle videos, and connect directly with
-                our instructors.
+                our local dive team.
               </p>
 
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
@@ -1921,46 +1923,32 @@ export default function HomePage() {
           </div>
 
           {/* Vian-Tech IT Solutions & Web Development Credit */}
-          <div className="w-full max-w-2xl rounded-2xl border border-teal-500/25 bg-gradient-to-r from-[#031d30]/70 via-[#071d2b]/80 to-[#031d30]/70 p-3.5 sm:p-4.5 backdrop-blur-xl shadow-xl shadow-black/30 flex flex-col sm:flex-row items-center justify-between gap-3.5 sm:gap-4">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 sm:gap-3">
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
-                Built by
-              </span>
-              <a
-                href={VIANTECH_WHATSAPP}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center rounded-xl bg-white/95 px-3.5 py-1.5 shadow-md transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-teal-500/20"
-                title="Vian-Tech | IT Solutions & Web Development"
-              >
-                <Image
-                  src="/images/viantech-logo.png"
-                  alt="Vian-Tech - IT Solutions & Web Development"
-                  width={150}
-                  height={42}
-                  className="h-6 w-auto object-contain transition-transform group-hover:scale-105"
-                  unoptimized
-                />
-              </a>
-            </div>
-
+          <div className="flex items-center justify-center gap-3 rounded-2xl border border-teal-500/20 bg-gradient-to-r from-[#031d30]/60 via-[#071d2b]/70 to-[#031d30]/60 px-5 py-2.5 backdrop-blur-xl shadow-lg shadow-black/20">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+              Built by
+            </span>
             <a
               href={VIANTECH_WHATSAPP}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-xs font-semibold text-emerald-300 transition-all duration-300 hover:bg-emerald-500 hover:text-white hover:shadow-lg hover:shadow-emerald-500/25 hover:scale-105 active:scale-95"
-              title="Contact Vian-Tech on WhatsApp for IT Solutions & Web Development"
+              className="group inline-flex items-center rounded-xl bg-white/95 px-3.5 py-1.5 shadow-md transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-teal-500/20"
+              title="Vian-Tech | IT Solutions & Web Development"
             >
-              <MessageCircle className="size-3.5 text-emerald-400 group-hover:text-white" />
-              <span>Contact Vian-Tech</span>
-              <span className="font-mono text-[11px] opacity-85">({VIANTECH_PHONE_DISPLAY})</span>
+              <Image
+                src="/images/viantech-logo.png"
+                alt="Vian-Tech - IT Solutions & Web Development"
+                width={140}
+                height={40}
+                className="h-5.5 w-auto object-contain transition-transform group-hover:scale-105"
+                unoptimized
+              />
             </a>
           </div>
 
           <div className="flex flex-col items-center gap-1.5 text-center text-xs text-slate-400">
             <p>
-              © {new Date().getFullYear()} Coral Coast Divers Mirissa • Certified PADI &amp; SSI
-              Instructors • Mirissa, Sri Lanka. All rights reserved.
+              © {new Date().getFullYear()} Coral Coast Divers Mirissa • Experienced Local Dive Team
+              • Mirissa, Sri Lanka. All rights reserved.
             </p>
             <p className="text-slate-500 text-[11px]">
               Website Designed &amp; Developed by{" "}

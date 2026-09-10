@@ -19,11 +19,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Coral Coast Divers Mirissa | Scuba Diving & Snorkeling",
   description:
-    "PADI-style guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka. Small groups, local instructors, all equipment included.",
+    "Guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka. Small groups, experienced local guides, all equipment included.",
   openGraph: {
     title: "Coral Coast Divers Mirissa",
     description:
-      "Guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka with local instructors.",
+      "Guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka with experienced local guides.",
     type: "website",
     locale: "en_US",
     siteName: "Coral Coast Divers",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Coral Coast Divers Mirissa",
     description:
-      "Guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka with local instructors.",
+      "Guided scuba diving, reef snorkeling and turtle tours in Mirissa, Sri Lanka with experienced local guides.",
   },
   icons: {
     icon: [
