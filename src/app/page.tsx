@@ -96,14 +96,14 @@ const categories: Category[] = [
     badgeColor: "bg-emerald-500/15 text-emerald-700 border-emerald-500/30",
     price: "USD 25",
     unit: "/ person",
-    duration: "1.5 – 2 Hours",
+    duration: "1 – 1.5 Hours",
     description:
       "Swim alongside wild green sea turtles in their natural habitat just off Mirissa bay. Our expert local snorkel guides swim right with you, helping you spot turtles grazing on sea grass, colorful parrotfish, and vibrant reef life. Perfect for families, solo travelers, and non-swimmers alike.",
     times: [
-      { label: "Morning Calm", time: "07:00 AM – 09:00 AM", note: "Calmest water & best light" },
-      { label: "Sunlit Reef", time: "10:30 AM – 12:30 PM", note: "Vibrant marine visibility" },
-      { label: "Afternoon", time: "02:30 PM – 04:30 PM", note: "Active feeding hours" },
-      { label: "Golden Sunset", time: "04:45 PM – 06:15 PM", note: "Magical sunset over the bay" },
+      { label: "Early Morning", time: "07:30 AM – 08:30 AM", note: "Calmest water & best light" },
+      { label: "Morning Session", time: "08:30 AM – 09:30 AM", note: "Prime turtle activity" },
+      { label: "Mid-Morning", time: "09:30 AM – 10:30 AM", note: "Vibrant marine visibility" },
+      { label: "Late Morning", time: "10:30 AM – 11:30 AM", note: "Warm water & clear conditions" },
     ],
     features: [
       "100% Wild Green Sea Turtle Sightings Guaranteed",
@@ -142,18 +142,23 @@ const categories: Category[] = [
     badgeColor: "bg-cyan-500/15 text-cyan-700 border-cyan-500/30",
     price: "USD 70",
     unit: "/ person",
-    duration: "2.5 – 3 Hours",
+    duration: "1.5 – 2.5 Hours",
     description:
       "Ever wondered what it feels like to breathe weightlessly underwater? Our Discover Scuba Diving program is led by experienced Coral Coast Divers dive guides. You will receive a full safety briefing, practice easy scuba skills in shallow water, and dive down to 6–12 meters on pristine Mirissa coral gardens.",
     times: [
       {
-        label: "Morning Session",
-        time: "08:30 AM – 11:30 AM",
-        note: "Crisp visibility & gentle currents",
+        label: "Early Morning",
+        time: "07:30 AM – 09:30 AM",
+        note: "Crisp visibility & calm water",
       },
       {
-        label: "Afternoon Session",
-        time: "01:30 PM – 04:30 PM",
+        label: "Mid-Morning",
+        time: "09:30 AM – 11:30 AM",
+        note: "Vibrant reef & sunlit waters",
+      },
+      {
+        label: "Midday Session",
+        time: "11:30 AM – 01:30 PM",
         note: "Warm tropical ocean water",
       },
     ],
@@ -1162,13 +1167,13 @@ export default function HomePage() {
                 Small Personal Groups
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                We strictly never overcrowd our boats or hurry guests. Enjoy unhurried individual
+                We strictly never overcrowd our groups or hurry guests. Enjoy unhurried individual
                 attention, personal space, and quiet peaceful encounters with ocean wildlife.
               </p>
               <div className="mt-5 space-y-1.5 border-t border-slate-100 pt-4 text-xs font-medium text-slate-700">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="size-4 text-emerald-600 shrink-0" />
-                  <span>Max 6 Guests per Dive Boat</span>
+                  <span>Max 6 Guests per Group</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="size-4 text-emerald-600 shrink-0" />
