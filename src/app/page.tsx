@@ -799,7 +799,7 @@ export default function HomePage() {
                 <div className="mt-6 pt-5 border-t border-border flex items-center justify-between text-xs text-muted-foreground">
                   <span className="flex items-center gap-1.5">
                     <CheckCircle2 className="size-4 text-emerald-600" />
-                    Action Camera Photos &amp; Video Included
+                    Experienced Local Guides
                   </span>
                   <span className="flex items-center gap-1.5">
                     <ShieldCheck className="size-4 text-primary" />
