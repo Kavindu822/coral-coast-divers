@@ -42,9 +42,9 @@ const INSTAGRAM_URL =
   "https://www.instagram.com/coral_coast_divers_mirissa?stkn=MXRtbHNncjhieHpkaw==";
 
 // Vian-Tech IT Solutions & Web Development
-const VIANTECH_PHONE_DISPLAY = "+94 78 958 0809";
+const VIANTECH_PHONE_DISPLAY = "+94 76 781 0420";
 const VIANTECH_WHATSAPP =
-  "https://wa.me/94789580809?text=Hi%20Vian-Tech!%20I%20saw%20the%20Coral%20Coast%20Divers%20website%20and%20would%20like%20to%20inquire%20about%20your%20IT%20%26%20web%20development%20services.";
+  "https://wa.me/94767810420?text=Hi%20Vian-Tech!%20I%20saw%20the%20Coral%20Coast%20Divers%20website%20and%20would%20like%20to%20inquire%20about%20your%20IT%20%26%20web%20development%20services.";
 
 // WhatsApp deep link generator
 const makeWhatsAppLink = (message: string) =>
@@ -290,7 +290,7 @@ const happyCustomers: HappyCustomer[] = [
     rating: 5,
     highlight: "All Divers Giving 'OK' Sign",
     quote:
-      "Traveling together as a group of friends, Coral Coast Divers gave us a truly VIP private boat experience. The life vests and masks fit everyone comfortably. Safe, ethical wildlife guidelines, and great vibes all around!",
+      "Traveling together as a group of friends, Coral Coast Divers gave us a truly VIP private tour experience. The life vests and masks fit everyone comfortably. Safe, ethical wildlife guidelines, and great vibes all around!",
   },
   {
     image: "/images/customers/customer-friends-reunion.jpg",
@@ -637,8 +637,6 @@ export default function HomePage() {
               <Camera className="size-4 text-cyan-300" />
               Free Action Camera Photos &amp; Video
             </span>
-            <span className="hidden h-1 w-1 rounded-full bg-white/40 sm:block" />
-            <span>Max 6 Divers per Boat</span>
           </div>
         </div>
 
@@ -1028,7 +1026,7 @@ export default function HomePage() {
                 </h4>
                 <p className="text-xs sm:text-sm text-white/70 mt-1 max-w-xl">
                   We post new photos and videos of wild turtles, reef sharks, and whale pods from
-                  our daily Mirissa boat tours!
+                  our daily Mirissa ocean tours!
                 </p>
               </div>
 
@@ -1472,7 +1470,7 @@ export default function HomePage() {
                   </h2>
                   <p className="mt-4 text-sm sm:text-base text-muted-foreground leading-relaxed">
                     WhatsApp is the fastest way to reach us. Message our owner directly for instant
-                    booking, sea condition updates, and custom boat charters.
+                    booking, sea condition updates, and custom private tours.
                   </p>
 
                   <div className="mt-8 space-y-3.5">
@@ -1955,8 +1953,8 @@ export default function HomePage() {
               © {new Date().getFullYear()} Coral Coast Divers Mirissa • Experienced Local Dive Team
               • Mirissa, Sri Lanka. All rights reserved.
             </p>
-            <p className="text-slate-500 text-[11px]">
-              Website Designed &amp; Developed by{" "}
+            <p className="text-slate-500 text-[11px] flex flex-wrap items-center justify-center gap-1.5">
+              <span>Website Designed &amp; Developed by</span>
               <a
                 href={VIANTECH_WHATSAPP}
                 target="_blank"
@@ -1966,7 +1964,17 @@ export default function HomePage() {
               >
                 Vian-Tech IT Solutions
               </a>
-              .
+              <span className="text-slate-600">•</span>
+              <a
+                href={VIANTECH_WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-medium text-emerald-400/90 hover:text-emerald-300 hover:underline transition-colors"
+                title="Contact Vian-Tech on WhatsApp (+94 76 781 0420)"
+              >
+                <MessageCircle className="size-3 text-emerald-400" />
+                <span>{VIANTECH_PHONE_DISPLAY}</span>
+              </a>
             </p>
           </div>
         </div>
